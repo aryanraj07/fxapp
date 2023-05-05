@@ -84,7 +84,7 @@ const Dropdowns = () => {
     
 
 
-      <Dropdown  defaultShow className={style.dropdown} >
+      <Dropdown   className={style.dropdown} >
       <Dropdown.Toggle className={style.dropdown_togglle }>
      <Image src={file2}alt='file2'></Image>   CREATE REPORTS
       </Dropdown.Toggle>
@@ -103,7 +103,7 @@ const Dropdowns = () => {
 <Col>
 
     
-      <Dropdown  defaultShow className={style.dropdown} >   
+      <Dropdown  className={style.dropdown} >   
         
       <Dropdown.Toggle className={style.dropdown_togglle } >
       <Image src={writing} alt='writng'></Image> DOCUMENTATION
@@ -120,8 +120,8 @@ const Dropdowns = () => {
        
       </Dropdown.Menu>
     </Dropdown>
-    <Dropdown defaultShow  >   
-        {/* defaultShow */}
+    <Dropdown  >   
+        
       <Dropdown.Toggle  className={style.dropdown_togglle } >
       <Image src={setting} alt='setting'></Image> SETTINGS
       </Dropdown.Toggle>
@@ -130,7 +130,7 @@ const Dropdowns = () => {
         <Dropdown.Item href="#/action-1">  Callback Requests</Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown >   
-    <Dropdown defaultShow  >   
+    <Dropdown   >   
 
       <Dropdown.Toggle className={style.dropdown_togglle } >
       <Image src={warning} alt='warning'></Image> Alerts
